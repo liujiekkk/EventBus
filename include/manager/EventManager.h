@@ -1,6 +1,7 @@
 #pragma once
 
 #include "IEventManager.h"
+#include "IEventHandler.h"
 #include <set>
 #include <unordered_map>
 
@@ -24,7 +25,7 @@ namespace eventBus {
 			}
 		};
 
-		// ¸øÓÅÏÈ¶ÓÁĞÖØÃüÃû£¬·ÀÖ¹ÒÔºóÓĞ¼àÌıÆ÷È¥ÖØµÄĞèÇó
+		// ç»™ä¼˜å…ˆé˜Ÿåˆ—é‡å‘½åï¼Œé˜²æ­¢ä»¥åæœ‰ç›‘å¬å™¨å»é‡çš„éœ€æ±‚
 		using ListenerSet = std::set<ListenerNode, CompFunc> ;
 
 		using IEventManager::trigger;

@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include "IEventHandler.h"
 #include <string>

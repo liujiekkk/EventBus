@@ -1,6 +1,5 @@
-﻿#include "manager/EventManager.h"
+#include "manager/EventManager.h"
 #include "Event.h"
-#include "IEventHandler.h"
 
 eventBus::EventManager::EventManager() : m_data()
 {
